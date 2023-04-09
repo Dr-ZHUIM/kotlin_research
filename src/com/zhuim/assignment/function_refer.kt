@@ -1,7 +1,5 @@
 package com.zhuim.assignment
 
-import kotlin.reflect.KFunction2
-
 const val SQL_NAME = "root"
 const val SQL_PASSWORD = "123456"
 

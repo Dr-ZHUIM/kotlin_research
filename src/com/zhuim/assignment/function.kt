@@ -26,10 +26,17 @@ fun main(){
         a:Int,b:Int -> a + b
     }
 
+    val compare = {
+        a:String,b:String -> a.length < b.length
+    }
+
+   val res = compare("aaa","bbbb")
+
     println(getFish("Bom"))
     println(getFish())
     println(makeCreature(name = "Tom", gender = "male"))
     println(`123`())
     println(len)
     println(sum(1,2))
+    println(res)
 }
