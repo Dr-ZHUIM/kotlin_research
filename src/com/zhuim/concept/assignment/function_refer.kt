@@ -1,4 +1,4 @@
-package com.zhuim.assignment
+package com.zhuim.concept.assignment
 
 const val SQL_NAME = "root"
 const val SQL_PASSWORD = "123456"

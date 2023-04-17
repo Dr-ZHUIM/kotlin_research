@@ -1,4 +1,4 @@
-package com.zhuim.assignment
+package com.zhuim.concept.assignment
 
 fun main(){
     val info = "this should be a String type data";

@@ -1,4 +1,4 @@
-package com.zhuim.assignment
+package com.zhuim.concept.assignment
 
 fun main () {
     val name = "Tom"

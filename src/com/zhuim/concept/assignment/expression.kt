@@ -1,6 +1,5 @@
-package com.zhuim.assignment
+package com.zhuim.concept.assignment
 
-import kotlin.math.floor
 import kotlin.math.round
 
 fun main (){

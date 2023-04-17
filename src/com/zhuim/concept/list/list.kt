@@ -1,4 +1,4 @@
-package com.zhuim.list
+package com.zhuim.concept.list
 
 fun main (){
     val list = listOf("first","second")
@@ -14,6 +14,6 @@ fun main (){
     val thirdElement2 = mutableList.getOrElse(2){"error: there is no such element!"}
     println("$thirdElementButError2")
     println("$thirdElement2")
-
+    mutableList.removeIf{it.indexOf("t") > 0}
     val immutableList = mutableList.toList()
 }
