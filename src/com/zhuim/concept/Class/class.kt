@@ -12,6 +12,8 @@ class Kid {
 }
 
 fun main() {
-    val Tom = Kid();
-    println(Tom.name)
+    val tom = Kid()
+    println(tom.name)
+    tom.name = "Bom"
+    println(tom.name)
 }
